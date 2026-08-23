@@ -3,10 +3,12 @@ import Greeting from "../components/home/Greeting";
 import MiniCard from "../components/home/MiniCard";
 import { BsCashCoin } from "react-icons/bs";
 import { GrInProgress } from "react-icons/gr";
+import RecentOrder from "../components/home/RecentOrder";
+import PopularDishes from "../components/home/PopularDishes";
 
 const home = () => {
   return (
-    <section className="bg-black h-[calc(100vh-5rem)] overflow-hidden flex gap-3">
+    <section className="bg-[#323232] h-[calc(100vh-5rem)] overflow-hidden flex">
       {/* Left div */}
       <div className="flex-[3] bg-[#323232]">
         <Greeting />
@@ -14,9 +16,12 @@ const home = () => {
           <MiniCard title="Total Earning" icon={<BsCashCoin />} number={512} footerNum={1.6} />
           <MiniCard title="In Progress" icon={<GrInProgress />} number={16} footerNum={3.5} />
         </div>
+        <RecentOrder />
       </div>
       {/* Right div */}
-      <div className="flex-[1.5] bg-blue-600"></div>
+      <div className="flex-[1.5]">
+        <PopularDishes />
+      </div>
     </section>
   );
 };

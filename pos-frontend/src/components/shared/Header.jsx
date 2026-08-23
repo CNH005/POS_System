@@ -12,7 +12,7 @@ const Header = () => {
         <h1 className="text-lg font-semibold text-white">Restro</h1>
       </div>
       {/* Search bar */}
-      <div className="flex items-center gap-4 rounded-[15px] px-5 py-2 bg-black w-[300px]">
+      <div className="flex items-center gap-4 rounded-[15px] px-5 py-2 bg-[#222222] w-[300px]">
         <FaSearch className="text-white" />
         <input type="text" placeholder="Search" className="bg-[#222222] outline-none text-white" />
       </div>
