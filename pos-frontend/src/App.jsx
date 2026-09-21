@@ -11,6 +11,7 @@ function App() {
         <BottomNav />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/orders" element={<Orders />} />
           <Route path="/auth" element={<Auth />} />
         </Routes>
