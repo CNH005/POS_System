@@ -21,11 +21,6 @@ const orders = () => {
         <Ordercards />
         <Ordercards />
         <Ordercards />
-        <Ordercards />
-        <Ordercards />
-        <Ordercards />
-        <Ordercards />
-        <Ordercards />
       </div>
     </section>
   );
